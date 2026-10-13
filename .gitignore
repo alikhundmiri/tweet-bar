@@ -1,0 +1,13 @@
+# Build output
+.build/
+build/
+.swiftpm/
+*.xcodeproj/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Never commit X API keys (the app stores them in ~/Library/Application Support/TweetBar/)
+x-credentials*.json
+*.env
